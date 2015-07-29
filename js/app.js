@@ -1,16 +1,23 @@
 
-var app = angular.module('angular-starter', [
-	'ui.router'
+var app = angular.module('ngfx-demo', [
+	'ui.router',
+	'ngFx',
+	'ngAnimate'
 ]);
 
 app.config(function($stateProvider, $urlRouterProvider){
 
-	$urlRouterProvider.otherwise("/");
+	$urlRouterProvider.otherwise("/login");
 
 	$stateProvider
 	    .state('home', {
 	      url: "/",
 	      templateUrl: "templates/main.html",
+	      controller: 'MainCtrl'
+	    })
+	    .state('login', {
+	      url: "/login",
+	      templateUrl: "templates/login.html",
 	      controller: 'MainCtrl'
 	    })
 });
