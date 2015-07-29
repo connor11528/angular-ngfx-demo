@@ -2,6 +2,8 @@
 
 > An animation demo using angular.js and the ngFx module
 
+**Blog post:** http://connorleech.ghost.io/animate-angular-apps-with-ngfx/
+
 ## Getting Started
 
 ```sh

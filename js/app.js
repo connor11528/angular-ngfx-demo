@@ -7,7 +7,7 @@ var app = angular.module('ngfx-demo', [
 
 app.config(function($stateProvider, $urlRouterProvider){
 
-	$urlRouterProvider.otherwise("/login");
+	
 
 	$stateProvider
 	    .state('home', {
@@ -19,5 +19,7 @@ app.config(function($stateProvider, $urlRouterProvider){
 	      url: "/login",
 	      templateUrl: "templates/login.html",
 	      controller: 'MainCtrl'
-	    })
+	    });
+
+	$urlRouterProvider.otherwise("/login");
 });
