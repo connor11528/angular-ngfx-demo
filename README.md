@@ -4,6 +4,8 @@
 
 **Blog post:** http://connorleech.ghost.io/animate-angular-apps-with-ngfx/
 
+**Demo:** http://connorlee.ch/angular-ngfx-demo
+
 ## Getting Started
 
 ```sh
